@@ -3,7 +3,7 @@ __autor__ = "meirinaldo júnior";
 #Defs
 def somaremultiplicar(codigo):
     #menor que 12 caracteres
-    if len(codigo) < 11 or len(codigo) > 13 :
+    if len(codigo) <= 12 or len(codigo) >= 13 :
         print("O código deve conter pelo 12 caracteres")
     else: 
         #Passando Valores para variáveis - Pares
